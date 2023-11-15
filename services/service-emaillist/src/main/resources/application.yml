@@ -42,9 +42,9 @@ spring:
                      
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://192.168.0.172:3307/webdb?charset=utf8
+      url: jdbc:mariadb://192.168.0.155:3307/webdb?charset=utf8
       username: webdb
-      password: webdb
+      password: qorwodnjs1!
       hikari:
          minimum-idle: 10
          maximum-pool-size: 20
@@ -74,9 +74,9 @@ spring:
 
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://192.168.0.172:3307/webdb?charset=utf8
+      url: jdbc:mariadb://192.168.0.155:3307/webdb?charset=utf8
       username: webdb
-      password: webdb
+      password: qorwodnjs1!
       hikari:
          minimum-idle: 10
          maximum-pool-size: 20
@@ -107,4 +107,4 @@ eureka:
       fetchRegistry: true
       registerWithEureka: true
       serviceUrl:
-         defaultZone: http://192.168.0.172:8761/eureka                              
+         defaultZone: http://192.168.0.155:8761/eureka                              
