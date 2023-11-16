@@ -20,5 +20,5 @@ mysite07: frontend
     }
 
 
-4.  테스트 서버 실행ㄴ
+4.  테스트 서버 실행
     $ npm run dev
